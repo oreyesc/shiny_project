@@ -24,8 +24,8 @@ The application must include the following:
 3. **plot1.R**: This file creates the Working Directory (project) and download the required files from the web.
  
 ##Instructions
-1. Open the **Server.R** file and load the application.
-  - The **Server.R** will load the **plot1.R** file, to download the repository: Dataset. 
+1. Open and execute the **plot1.R**, before open the **Server.R** and **ui.R** files.
+  **NOTE**: Is required to download the repository: Dataset. 
   - From: [Project Files](https://d396qusza40orc.cloudfront.net/exdata/data/NEI_data.zip)
   - Creates a folder and call it: **project**.  This will be the working area.
   - Unzip the file **NEI_dataEDA.zip** into the folder **project**, and two files are unzipped: 
@@ -51,7 +51,7 @@ The application must include the following:
     NEI <- readRDS("summarySCC_PM25.rds")
     SCC <- readRDS("Source_Classification_Code.rds")
     ```
-2. Information has been loaded and once the **server.R** has been loaded appears a new window containing the project interface.
+2. Information has been loaded, then the **server.R** must be loaded and appears a new window containing the project interface.
 3. **Interface**:
   - **`Side Bar Panel (sidebarPanel)`**: contains: 
     - An image (is a logo).
@@ -73,17 +73,22 @@ The application must include the following:
       - **Plot**:
         ![Question1 Plot](/img/plot1.png)
       - **Summary**:
-        
+        ```
+        ```
       - **Observations**
-        
+        ```
+        ```
 2.  **`Question 2`**: Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") 
     from 1999 to 2008? Use the base plotting system to make a plot answering this question.
     - **__`Answer 2`__**:
       - **Plot**:
         ![Question2 Plot](/img/plot2.png)
       - **Summary**:
-        
+        ```
+        ```
       - **Observations**
+        ```
+        ```
         
 3.  **`Question 3`**: Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, 
     which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? 
@@ -93,8 +98,7 @@ The application must include the following:
       - **Plot**:
         ![Question3 Plot](/img/plot3.png)
       - **Summary**:
-        
-      - **Observations**
-        
+        ```
+        ```
 
 **NOTE**: These points are part of a project that is part of the **__Exploratory Data Analysis__** course, that is part of the **Data Scientist** Specialization.  And this project has been used as part of the **__Developing Data Products__** project.
