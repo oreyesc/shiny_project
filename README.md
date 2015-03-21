@@ -75,9 +75,27 @@ The application must include the following:
         ![Question1 Plot](/img/plot1.png)
       - **Summary**:
         ```
+        fips               SCC             Pollutant           Emissions            type                year     
+ Length:6497651     Length:6497651     Length:6497651     Min.   :     0.0   Length:6497651     Min.   :1999  
+ Class :character   Class :character   Class :character   1st Qu.:     0.0   Class :character   1st Qu.:2002  
+ Mode  :character   Mode  :character   Mode  :character   Median :     0.0   Mode  :character   Median :2005  
+                                                          Mean   :     3.4                      Mean   :2004  
+                                                          3rd Qu.:     0.1                      3rd Qu.:2008  
+                                                          Max.   :646952.0                      Max.   :2008  
         ```
       - **Observations**
         ```
+        	fips	SCC	Pollutant	Emissions	type	year
+     4	09001	10100401	PM25-PRI	15.71	POINT	1999
+     8	09001	10100404	PM25-PRI	234.18	POINT	1999
+     12	09001	10100501	PM25-PRI	0.13	POINT	1999
+     16	09001	10200401	PM25-PRI	2.04	POINT	1999
+     20	09001	10200504	PM25-PRI	0.39	POINT	1999
+     24	09001	10200602	PM25-PRI	1.49	POINT	1999
+     28	09001	10200603	PM25-PRI	0.20	POINT	1999
+     32	09001	10300401	PM25-PRI	0.08	POINT	1999
+     36	09001	10300501	PM25-PRI	0.18	POINT	1999
+     40	09001	10300504	PM25-PRI	0.27	POINT	1999
         ```
 2.  **`Question 2`**: Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") 
     from 1999 to 2008? Use the base plotting system to make a plot answering this question.
@@ -87,9 +105,27 @@ The application must include the following:
         ![Question2 Plot](/img/plot2.png)
       - **Summary**:
         ```
+        fips               SCC             Pollutant           Emissions            type                year     
+ Length:6497651     Length:6497651     Length:6497651     Min.   :     0.0   Length:6497651     Min.   :1999  
+ Class :character   Class :character   Class :character   1st Qu.:     0.0   Class :character   1st Qu.:2002  
+ Mode  :character   Mode  :character   Mode  :character   Median :     0.0   Mode  :character   Median :2005  
+                                                          Mean   :     3.4                      Mean   :2004  
+                                                          3rd Qu.:     0.1                      3rd Qu.:2008  
+                                                          Max.   :646952.0                      Max.   :2008  
         ```
       - **Observations**
         ```
+        	fips	SCC	Pollutant	Emissions	type	year
+     4	09001	10100401	PM25-PRI	15.71	POINT	1999
+     8	09001	10100404	PM25-PRI	234.18	POINT	1999
+     12	09001	10100501	PM25-PRI	0.13	POINT	1999
+     16	09001	10200401	PM25-PRI	2.04	POINT	1999
+     20	09001	10200504	PM25-PRI	0.39	POINT	1999
+     24	09001	10200602	PM25-PRI	1.49	POINT	1999
+     28	09001	10200603	PM25-PRI	0.20	POINT	1999
+     32	09001	10300401	PM25-PRI	0.08	POINT	1999
+     36	09001	10300501	PM25-PRI	0.18	POINT	1999
+     40	09001	10300504	PM25-PRI	0.27	POINT	1999
         ```
         
 3.  **`Question 3`**: Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, 
@@ -102,6 +138,27 @@ The application must include the following:
         ![Question3 Plot](/img/plot3.png)
       - **Summary**:
         ```
+        fips               SCC             Pollutant           Emissions            type                year     
+ Length:6497651     Length:6497651     Length:6497651     Min.   :     0.0   Length:6497651     Min.   :1999  
+ Class :character   Class :character   Class :character   1st Qu.:     0.0   Class :character   1st Qu.:2002  
+ Mode  :character   Mode  :character   Mode  :character   Median :     0.0   Mode  :character   Median :2005  
+                                                          Mean   :     3.4                      Mean   :2004  
+                                                          3rd Qu.:     0.1                      3rd Qu.:2008  
+                                                          Max.   :646952.0                      Max.   :2008  
+        ```
+        - **Observations**
+        ```
+        	fips	SCC	Pollutant	Emissions	type	year
+     4	09001	10100401	PM25-PRI	15.71	POINT	1999
+     8	09001	10100404	PM25-PRI	234.18	POINT	1999
+     12	09001	10100501	PM25-PRI	0.13	POINT	1999
+     16	09001	10200401	PM25-PRI	2.04	POINT	1999
+     20	09001	10200504	PM25-PRI	0.39	POINT	1999
+     24	09001	10200602	PM25-PRI	1.49	POINT	1999
+     28	09001	10200603	PM25-PRI	0.20	POINT	1999
+     32	09001	10300401	PM25-PRI	0.08	POINT	1999
+     36	09001	10300501	PM25-PRI	0.18	POINT	1999
+     40	09001	10300504	PM25-PRI	0.27	POINT	1999
         ```
 
 **NOTE**: These points are part of a project that is part of the **__Exploratory Data Analysis__** course, that is part of the **Data Scientist** Specialization.  And this project has been used as part of the **__Developing Data Products__** project.
