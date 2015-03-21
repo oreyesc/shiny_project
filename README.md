@@ -71,7 +71,7 @@ The application must include the following:
     - **__`Answer 1`__**:
       - **Plot**:
       -
-        ![Question1 Plot](/img/plot1.png)
+        ![Question1 Plot](/project/img/plot1.png)
       - **Summary**:
       
         ```
@@ -103,7 +103,7 @@ The application must include the following:
     - **__`Answer 2`__**:
       - **Plot**:
       
-        ![Question2 Plot](/img/plot2.png)
+        ![Question2 Plot](/project/img/plot2.png)
       - **Summary**:
       
         ```
@@ -138,7 +138,7 @@ The application must include the following:
     - **__`Answer 3`__**:
       - **Plot**:
         
-        ![Question3 Plot](/img/plot3.png)
+        ![Question3 Plot](/project/img/plot3.png)
       - **Summary**:
       
         ```
