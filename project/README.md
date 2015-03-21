@@ -71,7 +71,7 @@ for each of the years 1999, 2002, 2005, and 2008.
 - **__`Answer 1`__**:
 - **Plot**:
 -
-![Question1 Plot](/img/plot1.png)
+![Question1 Plot](/project/img/plot1.png)
 - **Summary**:
 
 ```
@@ -103,7 +103,7 @@ from 1999 to 2008? Use the base plotting system to make a plot answering this qu
 - **__`Answer 2`__**:
 - **Plot**:
 
-![Question2 Plot](/img/plot2.png)
+![Question2 Plot](/project/img/plot2.png)
 - **Summary**:
 
 ```
@@ -138,7 +138,7 @@ to make a plot answer this question.
 - **__`Answer 3`__**:
 - **Plot**:
 
-![Question3 Plot](/img/plot3.png)
+![Question3 Plot](/project/img/plot3.png)
 - **Summary**:
 
 ```
