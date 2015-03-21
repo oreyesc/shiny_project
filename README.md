@@ -71,6 +71,7 @@ The application must include the following:
     for each of the years 1999, 2002, 2005, and 2008.
     - **__`Answer 1`__**:
       - **Plot**:
+      -
         ![Question1 Plot](/img/plot1.png)
       - **Summary**:
         ```
@@ -82,6 +83,7 @@ The application must include the following:
     from 1999 to 2008? Use the base plotting system to make a plot answering this question.
     - **__`Answer 2`__**:
       - **Plot**:
+      
         ![Question2 Plot](/img/plot2.png)
       - **Summary**:
         ```
@@ -96,6 +98,7 @@ The application must include the following:
     to make a plot answer this question.
     - **__`Answer 3`__**:
       - **Plot**:
+      
         ![Question3 Plot](/img/plot3.png)
       - **Summary**:
         ```
