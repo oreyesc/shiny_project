@@ -17,7 +17,7 @@ if (!file.exists (projectFolder)){
         dir.create (projectFolder)
 }
 
-setwd(projectFolder)
+setwd("~/project")
 
 ## Download the repository: Dataset -->Data for Peer Assessment
 if (!file.exists("Source_Classification_Code.rds")||!file.exists("summarySCC_PM25.rds")){
