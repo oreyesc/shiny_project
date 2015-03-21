@@ -54,9 +54,8 @@ The application must include the following:
 2. Information has been loaded, then the **server.R** must be loaded and appears a new window containing the project interface.
 3. **Interface**:
   - **`Side Bar Panel (sidebarPanel)`**: contains: 
-    - An image (is a logo).
-    - A **`textInput`**: to assign a specific name to the work presented in the **`mainPanel`**.
-    - A **`selectInput`**: to choose one question to be answered and plotted in the **`mainPanel`**.
+    -  "Number of observations to view" **`textInput`**: quantity of observations to print in **`mainPanel`** in `<Observations table>`.
+    - "Choose an Option" **`selectInput`**: to choose one question to be answered and plotted in the **`mainPanel`**.
   - **`Main Panel (mainPanel)`**: is the work area, as default appears all questions that are options on the **`selectInput`**.
 4. Once one option is selected on the **`selectInput`**, after a short time calculating values, appears: 
   - The selected question.
