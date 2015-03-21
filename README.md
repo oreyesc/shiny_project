@@ -74,6 +74,7 @@ The application must include the following:
       -
         ![Question1 Plot](/img/plot1.png)
       - **Summary**:
+      
         ```
         fips               SCC             Pollutant           Emissions            type                year     
  Length:6497651     Length:6497651     Length:6497651     Min.   :     0.0   Length:6497651     Min.   :1999  
@@ -84,6 +85,7 @@ The application must include the following:
                                                           Max.   :646952.0                      Max.   :2008  
         ```
       - **Observations**
+      
         ```
         	fips	SCC	Pollutant	Emissions	type	year
      4	09001	10100401	PM25-PRI	15.71	POINT	1999
@@ -104,6 +106,7 @@ The application must include the following:
       
         ![Question2 Plot](/img/plot2.png)
       - **Summary**:
+      
         ```
         fips               SCC             Pollutant           Emissions            type                year     
  Length:6497651     Length:6497651     Length:6497651     Min.   :     0.0   Length:6497651     Min.   :1999  
@@ -114,6 +117,7 @@ The application must include the following:
                                                           Max.   :646952.0                      Max.   :2008  
         ```
       - **Observations**
+      
         ```
         	fips	SCC	Pollutant	Emissions	type	year
      4	09001	10100401	PM25-PRI	15.71	POINT	1999
@@ -134,9 +138,10 @@ The application must include the following:
     to make a plot answer this question.
     - **__`Answer 3`__**:
       - **Plot**:
-      
+        
         ![Question3 Plot](/img/plot3.png)
       - **Summary**:
+      
         ```
         fips               SCC             Pollutant           Emissions            type                year     
  Length:6497651     Length:6497651     Length:6497651     Min.   :     0.0   Length:6497651     Min.   :1999  
@@ -147,6 +152,7 @@ The application must include the following:
                                                           Max.   :646952.0                      Max.   :2008  
         ```
         - **Observations**
+        
         ```
         	fips	SCC	Pollutant	Emissions	type	year
      4	09001	10100401	PM25-PRI	15.71	POINT	1999
